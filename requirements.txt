@@ -1,0 +1,4 @@
+requests>=2.32
+web3>=6,<7
+rlp>=4
+pypdf>=5

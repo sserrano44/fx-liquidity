@@ -1,0 +1,12 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Third-party caches — large, regenerable, not ours to redistribute
+cg_list.json
+llama_stables.json
+twin_wp.pdf
+
+# Run logs
+*.log

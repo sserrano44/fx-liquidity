@@ -1,0 +1,152 @@
+<title>FX Stablecoin Depth</title>
+<style>{{CSS}}</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Ripio · competitive liquidity study · {{GENERATED}}</div>
+    <h1>What a local-currency stablecoin actually costs to trade</h1>
+    <p class="standfirst">
+      Market cap says nothing about whether you can move money. This prices the only
+      question that matters: put dollars in, take the coin, sell it back — what is
+      left? Every number is an <code>eth_call</code> against live pool state across
+      {{NCHAINS}} chains, so it is executable depth, not indexer volume.
+    </p>
+    <div class="meta">
+      <span><b>{{NCOINS}}</b> coins</span>
+      <span><b>{{NPAIRS}}</b> coin·chain pairs</span>
+      <span><b>{{NPOOLS}}</b> pools scanned</span>
+      <span><b>{{NCHAINS}}</b> chains</span>
+      <span>venues: Uniswap v3/v4 · Aerodrome · Velodrome · Pancake · plus every other pool found</span>
+    </div>
+  </header>
+
+  {{FINDINGS}}
+
+  <section class="panel">
+    <header>
+      <h2>Best route per coin</h2>
+      <p class="lede">
+        For each coin, the cheapest chain and venue available today, priced at a
+        $10,000 round trip. The bar is log-scaled — 0.02% and 100% have to share
+        one axis.
+      </p>
+    </header>
+    <div class="card">
+      {{PANEL1}}
+      <div class="legend">
+        <span><i class="swatch sw-b1"></i>≤ 0.25% tight</span>
+        <span><i class="swatch sw-b3"></i>1–3% wide</span>
+        <span><i class="swatch sw-b5"></i>&gt; 10% not tradeable</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <header>
+      <h2>Cost by coin and chain</h2>
+      <p class="lede">
+        The same round trip, broken out by chain. Liquidity does not follow the token
+        — a coin deployed on eight chains is usually tradeable on one. Dashed cells
+        are chains where the coin exists but no dollar pool does; blank cells are
+        chains where it was never deployed.
+      </p>
+    </header>
+    <div class="card">{{PANEL2}}</div>
+  </section>
+
+  <section class="panel">
+    <header>
+      <h2>Supply versus tradeable depth</h2>
+      <p class="lede">
+        Each row sets circulating supply, summed across every chain, against the total
+        sitting in dollar-paired pools behind it. The ratio is the share of the float
+        that is actually reachable on a permissionless venue.
+      </p>
+    </header>
+    <div class="card">
+      {{PANEL3}}
+      <div class="legend">
+        <span><i class="swatch sw-sup"></i>circulating supply (log scale)</span>
+        <span><i class="swatch sw-pool"></i>dollar-paired pool TVL</span>
+        <span>ratio = pools / supply</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <header>
+      <h2>How cost scales with size</h2>
+      <p class="lede">
+        A quote at $10k flatters a thin pool. This is the same best route priced at
+        three sizes: the gap between the $1k and $100k columns is the real measure of
+        whether a book can carry flow.
+      </p>
+    </header>
+    <div class="card">{{PANEL4}}</div>
+  </section>
+
+  <section class="notes">
+    <h3>Method</h3>
+    <p>
+      This reproduces the study
+      <a href="https://x.com/dcposch/status/2089099387360461096">dcposch published on 16 Aug 2026</a>,
+      extended to the full wFiat family and its direct LATAM competitors. For every
+      coin, on every chain it is deployed to, we buy it with the chain's dollar
+      stablecoin at the best available route, then sell the coins we received straight
+      back. The round trip absorbs both spreads, both fee tiers and all slippage —
+      which is why the honest number is always negative.
+    </p>
+    <p>
+      Routes come from two places. Venue quoters (Uniswap v3 and v4, Aerodrome and
+      Velodrome SlipStream, Pancake v3) are called directly for every fee tier against
+      every plausible dollar leg — native USDC, bridged USDC.e, USDT, DAI, cUSD — because
+      quoting only native USDC reports "no liquidity" for coins that trade fine against
+      a bridged dollar. Pools those quoters cannot reach are priced from raw pool state
+      instead: a local reimplementation of the v3 swap, verified against the on-chain
+      quoter to the wei, plus constant-product and solidly-style maths. That is how
+      pools on forks with no quoter — a newer Aerodrome CL factory on Base, Uniswap v3
+      on Gnosis — get counted rather than silently dropped.
+    </p>
+
+    <p>
+      Coverage is not limited to coins an indexer already knows about. Twin's coins
+      appear on no token list, price feed or DEX aggregator. Their published
+      registry covers only Base and Polygon and was last touched the day before
+      Arbitrum minting began, so it misses where almost all of the float actually
+      sits. The Arbitrum contracts were recovered instead by deriving Twin's
+      deployer from the CREATE addresses of two known tokens and enumerating its
+      nonce sequence, which turns up ten currencies — the seven live ones plus
+      Paraguay, Uruguay and Venezuela, deployed and still unissued. Every address
+      was verified on-chain for name, symbol, decimals and supply. Their result —
+      no route at any size, on any venue, against any dollar — is a measurement,
+      not a gap in the data.
+    </p>
+
+    <h3>What to trust, and what not to</h3>
+    <ul>
+      <li>
+        <b>This is a snapshot, not a month.</b> The original sampled hourly for 30 days;
+        this is one pass at current block. A pool that was deep last week and is empty
+        today reads as empty here — which is the correct answer for a payment you want
+        to make now, and the wrong one for judging a coin's typical depth.
+      </li>
+      <li>
+        <b>On-chain only.</b> Aggregators often fill better by routing to market makers
+        off-chain, and those fills leave no pool state to read. Coins whose real volume
+        is OTC — A7A5 is the clearest case — look worse here than they trade.
+      </li>
+      <li>
+        <b>Supply is summed across all chains.</b> The original appears to have used
+        single-chain supply for some rows, which is why its ARS float reads roughly ten
+        times smaller than the on-chain total. Ratios here are correspondingly stricter.
+      </li>
+      <li>
+        <b>Pool TVL counts both sides.</b> Reserve figures come from pool discovery and
+        include the dollar leg and the coin leg together, so the dollar actually
+        available to sell into is roughly half the number shown.
+      </li>
+    </ul>
+  </section>
+
+</div>

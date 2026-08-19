@@ -1,0 +1,1516 @@
+{
+ "generated": "2026-08-17T21:26:59Z",
+ "panel1": [
+  {
+   "symbol": "AUDF",
+   "row": {
+    "symbol": "AUDF",
+    "currency": "AUD",
+    "issuer": "Forte",
+    "group": "reference",
+    "chain": "polygon",
+    "address": "0xd2a530170D71a9cFE1651fb468e2B98F7ED7456b",
+    "decimals": 6,
+    "total_supply_raw": 800498609586,
+    "total_supply": 800498.609586,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.01%",
+      "coins": 1429.958584,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.01%",
+      "usd_back": 999.74848,
+      "round_trip": -0.0002515200000000606,
+      "implied_px_usd": 0.699320953200418
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.01%",
+      "coins": 14299.487072,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.01%",
+      "usd_back": 9992.378507,
+      "round_trip": -0.0007621493000000701,
+      "implied_px_usd": 0.6993257834808021
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC.e",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.01%",
+      "coins": 7.680546,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.01%",
+      "usd_back": 2.619718,
+      "round_trip": -0.99997380282,
+      "implied_px_usd": 13019.90769927034
+     }
+    },
+    "dollar_legs": [
+     "USDC",
+     "USDC.e"
+    ],
+    "direct_pools": [
+     "0x57a63adebf02680c996a89413c324901dc0df801"
+    ]
+   }
+  },
+  {
+   "symbol": "EURC",
+   "row": {
+    "symbol": "EURC",
+    "currency": "EUR",
+    "issuer": "Circle",
+    "group": "reference",
+    "chain": "ethereum",
+    "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+    "decimals": 6,
+    "total_supply_raw": 305616886170000,
+    "total_supply": 305616886.17,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.03%/ts6",
+      "coins": 863.23539,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.03%/ts6",
+      "usd_back": 999.229697,
+      "round_trip": -0.0007703030000000277,
+      "implied_px_usd": 1.1584325800173692
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.03%/ts6",
+      "coins": 8631.870043,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.03%/ts6",
+      "usd_back": 9991.177093,
+      "round_trip": -0.0008822907000000102,
+      "implied_px_usd": 1.1584975156234518
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 86282.80297,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 99845.923239,
+      "round_trip": -0.0015407676099999934,
+      "implied_px_usd": 1.158979501799094
+     }
+    },
+    "dollar_legs": [
+     "USDC",
+     "USDT"
+    ],
+    "direct_pools": [
+     "0x95dbb3c7546f22bce375900abfdd64a4e5bd73d6",
+     "0x57ba44f2aa654b02a2359b42ace7c894df1026a8"
+    ]
+   }
+  },
+  {
+   "symbol": "MXNB",
+   "row": {
+    "symbol": "MXNB",
+    "currency": "MXN",
+    "issuer": "Bitso/Juno",
+    "group": "latam",
+    "chain": "base",
+    "address": "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
+    "decimals": 6,
+    "total_supply_raw": 4376239087585,
+    "total_supply": 4376239.087585,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-slipstream-3",
+      "buy_param": "0x82312ae1",
+      "coins": 17066.542762,
+      "sell_venue": "aerodrome-slipstream-3",
+      "sell_param": "0x82312ae1",
+      "usd_back": 998.989833,
+      "round_trip": -0.0010101670000000063,
+      "implied_px_usd": 0.05859417539600221
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-slipstream-3",
+      "buy_param": "0x82312ae1",
+      "coins": 170657.417934,
+      "sell_venue": "aerodrome-slipstream-3",
+      "sell_param": "0x82312ae1",
+      "usd_back": 9988.960921,
+      "round_trip": -0.001103907900000034,
+      "implied_px_usd": 0.058596925472453806
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-slipstream-3",
+      "buy_param": "0x82312ae1",
+      "coins": 1362044.975296,
+      "sell_venue": "aerodrome-slipstream-3",
+      "sell_param": "0x82312ae1",
+      "usd_back": 78963.341859,
+      "round_trip": -0.2103665814100001,
+      "implied_px_usd": 0.07341901465351243
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": [
+     "0x82312ae1bbf1864ce00dfceb974a10e0d6245b48"
+    ]
+   }
+  },
+  {
+   "symbol": "XSGD",
+   "row": {
+    "symbol": "XSGD",
+    "currency": "SGD",
+    "issuer": "StraitsX",
+    "group": "reference",
+    "chain": "base",
+    "address": "0x0a4C9CB2778Ab3302996A34befcf9A8Bc288c33b",
+    "decimals": 6,
+    "total_supply_raw": 5628675980000,
+    "total_supply": 5628675.98,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome",
+      "buy_param": "ts1",
+      "coins": 1276.402677,
+      "sell_venue": "aerodrome",
+      "sell_param": "ts1",
+      "usd_back": 999.327321,
+      "round_trip": -0.0006726790000000094,
+      "implied_px_usd": 0.7834518197269497
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome",
+      "buy_param": "ts1",
+      "coins": 12757.54452,
+      "sell_venue": "aerodrome",
+      "sell_param": "ts1",
+      "usd_back": 9983.753259,
+      "round_trip": -0.001624674100000112,
+      "implied_px_usd": 0.7838499002941359
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome",
+      "buy_param": "ts1",
+      "coins": 126734.224258,
+      "sell_venue": "aerodrome",
+      "sell_param": "ts1",
+      "usd_back": 98494.595104,
+      "round_trip": -0.015054048959999955,
+      "implied_px_usd": 0.7890528433458066
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": [
+     "0x892a6ab3fa0f1f839fcb0ae264a8c4bbfb030725",
+     "0xe48fea0b31cc836dbb73ca298c59e35cd68892b1",
+     "0x25101367466e43d0fc0860f5f0e3e84a6e48ba92"
+    ]
+   }
+  },
+  {
+   "symbol": "tGBP",
+   "row": {
+    "symbol": "tGBP",
+    "currency": "GBP",
+    "issuer": "Tokenised Money",
+    "group": "reference",
+    "chain": "base",
+    "address": "0x27F6c8289550FCe67f6b50BeD1f519966AfE5287",
+    "decimals": 18,
+    "total_supply_raw": 5543666397716000000000000,
+    "total_supply": 5543666.397716,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-slipstream-2",
+      "buy_param": "0x99fb961b",
+      "coins": 738.084659337034,
+      "sell_venue": "aerodrome-slipstream-2",
+      "sell_param": "0x99fb961b",
+      "usd_back": 998.719962,
+      "round_trip": -0.0012800379999999834,
+      "implied_px_usd": 1.3548581281966012
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-slipstream-2",
+      "buy_param": "0x99fb961b",
+      "coins": 7371.535984624189,
+      "sell_venue": "aerodrome-slipstream-2",
+      "sell_param": "0x99fb961b",
+      "usd_back": 9962.044356,
+      "round_trip": -0.003795564399999951,
+      "implied_px_usd": 1.3565693799580378
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-slipstream-2",
+      "buy_param": "0x99fb961b",
+      "coins": 72786.22326001847,
+      "sell_venue": "aerodrome-slipstream-2",
+      "sell_param": "0x99fb961b",
+      "usd_back": 97158.635592,
+      "round_trip": -0.02841364407999991,
+      "implied_px_usd": 1.3738863691658265
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": [
+     "0x99fb961b5f8d5bf137976ba50cf6999546b0503f",
+     "0x181dfef9bc1b2557a7e05866aa42ff54a6db3060"
+    ]
+   }
+  },
+  {
+   "symbol": "AUDM",
+   "row": {
+    "symbol": "AUDM",
+    "currency": "AUD",
+    "issuer": "Macropod",
+    "group": "reference",
+    "chain": "ethereum",
+    "address": "0x081599E4936D12c46bd48913B2329115cD26cbDD",
+    "decimals": 18,
+    "total_supply_raw": 2863699190000000000000000,
+    "total_supply": 2863699.19,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.01%",
+      "coins": 1403.1047468484608,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.01%",
+      "usd_back": 999.197393,
+      "round_trip": -0.0008026070000000107,
+      "implied_px_usd": 0.7127051649180992
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.01%",
+      "coins": 13996.221176967838,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.01%",
+      "usd_back": 9942.511517,
+      "round_trip": -0.005748848299999887,
+      "implied_px_usd": 0.7144785634322488
+     },
+     "100000": null
+    },
+    "dollar_legs": [
+     "USDC",
+     "USDT"
+    ],
+    "direct_pools": []
+   }
+  },
+  {
+   "symbol": "BRLA",
+   "row": {
+    "symbol": "BRLA",
+    "currency": "BRL",
+    "issuer": "BRLA Digital",
+    "group": "latam",
+    "chain": "polygon",
+    "address": "0xE6A537a407488807F0bbEb0038B79004f19DDDFb",
+    "decimals": 18,
+    "total_supply_raw": 18669531245782868387753274,
+    "total_supply": 18669531.245782867,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 5218.8979646969165,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 998.512534,
+      "round_trip": -0.0014874660000000484,
+      "implied_px_usd": 0.19161133380351003
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 52076.25882648093,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 9941.79351,
+      "round_trip": -0.005820649000000011,
+      "implied_px_usd": 0.19202608300492913
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 367834.1581339693,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 34991.666171,
+      "round_trip": -0.65008333829,
+      "implied_px_usd": 0.27186164685548014
+     }
+    },
+    "dollar_legs": [
+     "USDC",
+     "USDC.e",
+     "USDT"
+    ],
+    "direct_pools": [
+     "0x0e7754127dedd4097be750825dbb4669bc32c956"
+    ]
+   }
+  },
+  {
+   "symbol": "BRZ",
+   "row": {
+    "symbol": "BRZ",
+    "currency": "BRL",
+    "issuer": "Transfero",
+    "group": "latam",
+    "chain": "polygon",
+    "address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc",
+    "decimals": 18,
+    "total_supply_raw": 69901691249002140000000000,
+    "total_supply": 69901691.24900214,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 5214.2638148938295,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 998.489676,
+      "round_trip": -0.0015103239999999518,
+      "implied_px_usd": 0.1917816273782767
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 52000.76138272614,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 9934.624256,
+      "round_trip": -0.006537574400000135,
+      "implied_px_usd": 0.19230487658440032
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 278925.4359359507,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 33383.749426,
+      "round_trip": -0.66616250574,
+      "implied_px_usd": 0.35851875489391677
+     }
+    },
+    "dollar_legs": [
+     "USDT"
+    ],
+    "direct_pools": [
+     "0x4af62a93775c093af3e32949ef23c9a323d20817"
+    ]
+   }
+  },
+  {
+   "symbol": "wARS",
+   "row": {
+    "symbol": "wARS",
+    "currency": "ARS",
+    "issuer": "Ripio",
+    "group": "wfiat",
+    "chain": "base",
+    "address": "0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D",
+    "decimals": 18,
+    "total_supply_raw": 946013080844833598912033000,
+    "total_supply": 946013080.8448336,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 1566949.7873480076,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 992.661567,
+      "round_trip": -0.007338433000000033,
+      "implied_px_usd": 0.0006381825429725194
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 15648813.915334787,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 9897.744653,
+      "round_trip": -0.010225534699999983,
+      "implied_px_usd": 0.0006390260663909276
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 154997374.04256308,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 96514.831561,
+      "round_trip": -0.03485168438999997,
+      "implied_px_usd": 0.0006451722206115536
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": []
+   }
+  },
+  {
+   "symbol": "wBRL",
+   "row": {
+    "symbol": "wBRL",
+    "currency": "BRL",
+    "issuer": "Ripio",
+    "group": "wfiat",
+    "chain": "ethereum",
+    "address": "0xD76f5Faf6888e24D9F04Bf92a0c8B921FE4390e0",
+    "decimals": 18,
+    "total_supply_raw": 3088487762676799000000000,
+    "total_supply": 3088487.762676799,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 5157.283365109567,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 991.624765,
+      "round_trip": -0.008375234999999925,
+      "implied_px_usd": 0.1939005342939412
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 51185.93318660202,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 9780.889434,
+      "round_trip": -0.021911056599999923,
+      "implied_px_usd": 0.1953661753815111
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 498149.76210864156,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 66622.507739,
+      "round_trip": -0.3337749226100001,
+      "implied_px_usd": 0.20074284403289744
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": []
+   }
+  },
+  {
+   "symbol": "BRL1",
+   "row": {
+    "symbol": "BRL1",
+    "currency": "BRL",
+    "issuer": "BRL1 consortium",
+    "group": "latam",
+    "chain": "polygon",
+    "address": "0x5c067C80c00Ecd2345B05e83a3E758Ef799C40b5",
+    "decimals": 18,
+    "total_supply_raw": 13430917540000000000000000,
+    "total_supply": 13430917.54,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.3%",
+      "coins": 5206.031642361947,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.3%",
+      "usd_back": 991.823848,
+      "round_trip": -0.008176151999999992,
+      "implied_px_usd": 0.1920848870496503
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.3%",
+      "coins": 51585.82336332306,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.3%",
+      "usd_back": 9732.678938,
+      "round_trip": -0.026732106200000105,
+      "implied_px_usd": 0.19385170862872933
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.3%",
+      "coins": 374183.42026060756,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.3%",
+      "usd_back": 49303.932932,
+      "round_trip": -0.50696067068,
+      "implied_px_usd": 0.26724861280693035
+     }
+    },
+    "dollar_legs": [
+     "USDC",
+     "USDT"
+    ],
+    "direct_pools": [
+     "0x27e7f31262733bbbc5255d07d646184fd199bd34"
+    ]
+   }
+  },
+  {
+   "symbol": "wA7A5",
+   "row": {
+    "symbol": "wA7A5",
+    "currency": "RUB",
+    "issuer": "A7A5 (wrapped)",
+    "group": "reference",
+    "chain": "ethereum",
+    "address": "0xF442Ff10b8dEf89514560A66C0Ad28777094636A",
+    "decimals": 6,
+    "total_supply_raw": 97981563029889,
+    "total_supply": 97981563.029889,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 74935.91015,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 996.156559,
+      "round_trip": -0.003843441000000003,
+      "implied_px_usd": 0.013344736829088879
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 740080.796977,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 9715.630898,
+      "round_trip": -0.028436910200000054,
+      "implied_px_usd": 0.01351203820021664
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.05%",
+      "coins": 5804404.806906,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.05%",
+      "usd_back": 55480.065776,
+      "round_trip": -0.44519934224,
+      "implied_px_usd": 0.017228295290676727
+     }
+    },
+    "dollar_legs": [
+     "USDT"
+    ],
+    "direct_pools": [
+     "0xb6d629cb247333dd5e273b75741c55dfeca6f6e9"
+    ]
+   }
+  },
+  {
+   "symbol": "wCOP",
+   "row": {
+    "symbol": "wCOP",
+    "currency": "COP",
+    "issuer": "Ripio",
+    "group": "wfiat",
+    "chain": "base",
+    "address": "0x8a1D45e102e886510e891d2Ec656a708991e2D76",
+    "decimals": 18,
+    "total_supply_raw": 100474070727753036210921919,
+    "total_supply": 100474070.72775304,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 3105133.9844707833,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 985.891927,
+      "round_trip": -0.014108072999999943,
+      "implied_px_usd": 0.0003220472948997184
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 30075433.48405239,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 9261.098816,
+      "round_trip": -0.07389011840000004,
+      "implied_px_usd": 0.000332497285710031
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 34831962.84913164,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 10669.029503,
+      "round_trip": -0.8933097049700001,
+      "implied_px_usd": 0.0028709263509820553
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": []
+   }
+  },
+  {
+   "symbol": "wPEN",
+   "row": {
+    "symbol": "wPEN",
+    "currency": "PEN",
+    "issuer": "Ripio",
+    "group": "wfiat",
+    "chain": "worldchain",
+    "address": "0x4F34c8b3b5FB6D98Da888F0feA543d4d9C9F2eBE",
+    "decimals": 18,
+    "total_supply_raw": 109124193918000000000000,
+    "total_supply": 109124.193918,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.1%",
+      "coins": 3311.3069701123773,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.1%",
+      "usd_back": 990.07974,
+      "round_trip": -0.009920260000000014,
+      "implied_px_usd": 0.3019955591631731
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.1%",
+      "coins": 31966.210263296383,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.1%",
+      "usd_back": 9240.696326,
+      "round_trip": -0.07593036740000003,
+      "implied_px_usd": 0.3128303266991272
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.1%",
+      "coins": 50101.69252395824,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.1%",
+      "usd_back": 14185.308335,
+      "round_trip": -0.85814691665,
+      "implied_px_usd": 1.9959405553451268
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": []
+   }
+  },
+  {
+   "symbol": "wMXN",
+   "row": {
+    "symbol": "wMXN",
+    "currency": "MXN",
+    "issuer": "Ripio",
+    "group": "wfiat",
+    "chain": "worldchain",
+    "address": "0x337E7456B420bD3481e7FA61fA9850343d610d34",
+    "decimals": 18,
+    "total_supply_raw": 566913500358720653196000,
+    "total_supply": 566913.5003587207,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 17090.338255902527,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 988.614828,
+      "round_trip": -0.011385171999999999,
+      "implied_px_usd": 0.05851259261381956
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 151264.205472157,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 8567.853447,
+      "round_trip": -0.1432146553000001,
+      "implied_px_usd": 0.06610949344417565
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.3%",
+      "coins": 205845.6666953926,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.3%",
+      "usd_back": 11561.48391,
+      "round_trip": -0.8843851609,
+      "implied_px_usd": 0.4858008507314294
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": []
+   }
+  },
+  {
+   "symbol": "A7A5",
+   "row": {
+    "symbol": "A7A5",
+    "currency": "RUB",
+    "issuer": "A7A5",
+    "group": "reference",
+    "chain": "ethereum",
+    "address": "0x6fA0BE17E4Bea2fCFa22EF89bF8ac9aAB0Ab0fC9",
+    "decimals": 6,
+    "total_supply_raw": 571756384480000,
+    "total_supply": 571756384.48,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap_v2",
+      "buy_param": "0x14d7aab5",
+      "coins": 83527.90563,
+      "sell_venue": "uniswap_v2",
+      "sell_param": "0x14d7aab5",
+      "usd_back": 940.30195,
+      "round_trip": -0.05969804999999995,
+      "implied_px_usd": 0.011972046856168733
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap_v2",
+      "buy_param": "0x14d7aab5",
+      "coins": 668087.397694,
+      "sell_venue": "uniswap_v2",
+      "sell_param": "0x14d7aab5",
+      "usd_back": 6326.56042,
+      "round_trip": -0.36734395799999997,
+      "implied_px_usd": 0.014968101530602795
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap_v2",
+      "buy_param": "0x14d7aab5",
+      "coins": 2225751.359979,
+      "sell_venue": "uniswap_v2",
+      "sell_param": "0x14d7aab5",
+      "usd_back": 14810.134453,
+      "round_trip": -0.85189865547,
+      "implied_px_usd": 0.04492864827495534
+     }
+    },
+    "dollar_legs": [
+     "USDT"
+    ],
+    "direct_pools": [
+     "0x14d7aab5b4bca6a02e52ac22520b033bf35f4091"
+    ]
+   }
+  },
+  {
+   "symbol": "wCLP",
+   "row": {
+    "symbol": "wCLP",
+    "currency": "CLP",
+    "issuer": "Ripio",
+    "group": "wfiat",
+    "chain": "worldchain",
+    "address": "0x61D450a098b6a7f69fC4b98CE68198fe59768651",
+    "decimals": 18,
+    "total_supply_raw": 41692137803882768492701909,
+    "total_supply": 41692137.80388277,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.1%",
+      "coins": 893967.8193222134,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.1%",
+      "usd_back": 981.394502,
+      "round_trip": -0.018605497999999998,
+      "implied_px_usd": 0.0011186084984112492
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.1%",
+      "coins": 4667918.141129759,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.1%",
+      "usd_back": 4950.629068,
+      "round_trip": -0.5049370931999999,
+      "implied_px_usd": 0.002142282640282063
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.1%",
+      "coins": 5210769.359118659,
+      "sell_venue": "uniswap-v4",
+      "sell_param": "0.1%",
+      "usd_back": 5404.846126,
+      "round_trip": -0.94595153874,
+      "implied_px_usd": 0.019191024032757003
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": []
+   }
+  },
+  {
+   "symbol": "cREAL",
+   "row": {
+    "symbol": "cREAL",
+    "currency": "BRL",
+    "issuer": "Mento",
+    "group": "latam",
+    "chain": "celo",
+    "address": "0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787",
+    "decimals": 18,
+    "total_supply_raw": 1146905079276702428767430,
+    "total_supply": 1146905.0792767024,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v3",
+      "buy_param": "0.01%",
+      "coins": 5189.987480287164,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.01%",
+      "usd_back": 998.454995,
+      "round_trip": -0.0015450049999999882,
+      "implied_px_usd": 0.1926786921545078
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "cUSD",
+      "buy_venue": "ubeswap",
+      "buy_param": "0x67449e82",
+      "coins": 21742.23636095564,
+      "sell_venue": "ubeswap",
+      "sell_param": "0x67449e82",
+      "usd_back": 2631.2957242839143,
+      "round_trip": -0.7368704275716086,
+      "implied_px_usd": 0.4599342879906245
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "cUSD",
+      "buy_venue": "ubeswap",
+      "buy_param": "0x67449e82",
+      "coins": 34867.143605409816,
+      "sell_venue": "ubeswap",
+      "sell_param": "0x67449e82",
+      "usd_back": 3454.2497838784698,
+      "round_trip": -0.9654575021612153,
+      "implied_px_usd": 2.8680296020716907
+     }
+    },
+    "dollar_legs": [
+     "USDC",
+     "USDT",
+     "cUSD"
+    ],
+    "direct_pools": [
+     "0x1625fe58cdb3726e5841fb2bb367dde9aaa009b3",
+     "0x48854b22ef0c6417b17fa0ae74abadc69725705c",
+     "0x67449e82a0d354d34e6b7487a968eb3e15cd47b9",
+     "0x72dd8fe09b5b493012e5816068dfc6fb26a2a9e6",
+     "0xadfb9028094c00f62a26a358fe90e45ffe9e9e29"
+    ]
+   }
+  },
+  {
+   "symbol": "JPYC",
+   "row": {
+    "symbol": "JPYC",
+    "currency": "JPY",
+    "issuer": "JPYC Inc",
+    "group": "reference",
+    "chain": "polygon",
+    "address": "0x6AE7Dfc73E0dDE2aa99ac063DcF7e8A63265108c",
+    "decimals": 18,
+    "total_supply_raw": 1162534278058872784348976549,
+    "total_supply": 1162534278.0588727,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC.e",
+      "buy_venue": "quickswap",
+      "buy_param": "0x20599542",
+      "coins": 102835.3745456577,
+      "sell_venue": "quickswap",
+      "sell_param": "0x20599542",
+      "usd_back": 775.757654,
+      "round_trip": -0.22424234600000004,
+      "implied_px_usd": 0.009724280233510617
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC.e",
+      "buy_venue": "quickswap",
+      "buy_param": "0x20599542",
+      "coins": 487057.42235220555,
+      "sell_venue": "quickswap",
+      "sell_param": "0x20599542",
+      "usd_back": 2606.624148,
+      "round_trip": -0.7393375852,
+      "implied_px_usd": 0.02053146003135685
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC.e",
+      "buy_venue": "quickswap",
+      "buy_param": "0x20599542",
+      "coins": 777585.2769792563,
+      "sell_venue": "quickswap",
+      "sell_param": "0x20599542",
+      "usd_back": 3411.856862,
+      "round_trip": -0.96588143138,
+      "implied_px_usd": 0.12860325800981917
+     }
+    },
+    "dollar_legs": [
+     "USDC.e",
+     "USDT"
+    ],
+    "direct_pools": [
+     "0x205995421c72dc223f36bbfad78b66eea72d2677",
+     "0xfbae8e2d04a67c10047d83ee9b8aeffe7f6ea3f4",
+     "0x98349e1689538fd878646b77b3dcd89040a35eb6",
+     "0x151033563d069108a35368812b7e132760097a8e",
+     "0xc56baac876f4f0f8f2e3a995f37acfa2eca92ac8",
+     "0x33cb3226b396e56be9b10924aabf462b24fad754"
+    ]
+   }
+  },
+  {
+   "symbol": "JPYCv1",
+   "row": {
+    "symbol": "JPYCv1",
+    "currency": "JPY",
+    "issuer": "JPYC Inc (v1)",
+    "group": "reference",
+    "chain": "polygon",
+    "address": "0x431d5DFf03120AFA4bdF332c61A6e1766eF37BDB",
+    "decimals": 18,
+    "total_supply_raw": 2250000000000000000000000000,
+    "total_supply": 2250000000.0,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC.e",
+      "buy_venue": "quickswap",
+      "buy_param": "0x59377dbd",
+      "coins": 103836.08701863291,
+      "sell_venue": "quickswap",
+      "sell_param": "0x59377dbd",
+      "usd_back": 767.25705,
+      "round_trip": -0.23274295,
+      "implied_px_usd": 0.00963056321469967
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC.e",
+      "buy_venue": "quickswap",
+      "buy_param": "0x59377dbd",
+      "coins": 480675.9433490928,
+      "sell_venue": "quickswap",
+      "sell_param": "0x59377dbd",
+      "usd_back": 2513.069419,
+      "round_trip": -0.7486930581,
+      "implied_px_usd": 0.020804036770231002
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC.e",
+      "buy_venue": "quickswap",
+      "buy_param": "0x59377dbd",
+      "coins": 754496.1994545872,
+      "sell_venue": "quickswap",
+      "sell_param": "0x59377dbd",
+      "usd_back": 3253.330381,
+      "round_trip": -0.96746669619,
+      "implied_px_usd": 0.1325387723255443
+     }
+    },
+    "dollar_legs": [
+     "USDC",
+     "USDC.e"
+    ],
+    "direct_pools": [
+     "0x59377dbd9f550568540cae0b21412bee1cc3f439",
+     "0x286af3968aec55ec3acd463bf59edc7cbc04102e"
+    ]
+   }
+  },
+  {
+   "symbol": "cCOP",
+   "row": {
+    "symbol": "cCOP",
+    "currency": "COP",
+    "issuer": "Mento",
+    "group": "latam",
+    "chain": "celo",
+    "address": "0x8A567e2aE79CA692Bd748aB832081C45de4041eA",
+    "decimals": 18,
+    "total_supply_raw": 68024619896661657589380884,
+    "total_supply": 68024619.89666165,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.01%",
+      "coins": 570645.5664599754,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.3%",
+      "usd_back": 140.717717,
+      "round_trip": -0.859282283,
+      "implied_px_usd": 0.0017524012430404803
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.01%",
+      "coins": 682566.3844832716,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.3%",
+      "usd_back": 167.581601,
+      "round_trip": -0.9832418399,
+      "implied_px_usd": 0.01465058963835492
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDT",
+      "buy_venue": "uniswap-v4",
+      "buy_param": "0.01%",
+      "coins": 696221.3854522504,
+      "sell_venue": "uniswap-v3",
+      "sell_param": "0.3%",
+      "usd_back": 170.844869,
+      "round_trip": -0.99829155131,
+      "implied_px_usd": 0.14363247393649387
+     }
+    },
+    "dollar_legs": [
+     "USDT"
+    ],
+    "direct_pools": [
+     "0x2ac5baa668a8a58fd0e302b9896717484fd217b0",
+     "0x40b3737b8984d14a2e8f96d8c680b2d475719fdf"
+    ]
+   }
+  },
+  {
+   "symbol": "MXNe",
+   "row": {
+    "symbol": "MXNe",
+    "currency": "MXN",
+    "issuer": "Brale/Etherfuse",
+    "group": "latam",
+    "chain": "base",
+    "address": "0x269caE7Dc59803e5C596c95756faEeBb6030E0aF",
+    "decimals": 6,
+    "total_supply_raw": 102072383683,
+    "total_supply": 102072.383683,
+    "sizes": {
+     "1000": {
+      "size_usd": 1000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-base",
+      "buy_param": "0x9c45e99e",
+      "coins": 1999.411663,
+      "sell_venue": "aerodrome-base",
+      "sell_param": "0x9c45e99e",
+      "usd_back": 44.407192,
+      "round_trip": -0.955592808,
+      "implied_px_usd": 0.5001471275302849
+     },
+     "10000": {
+      "size_usd": 10000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-base",
+      "buy_param": "0x9c45e99e",
+      "coins": 2165.905294,
+      "sell_venue": "aerodrome-base",
+      "sell_param": "0x9c45e99e",
+      "usd_back": 46.267486,
+      "round_trip": -0.9953732514,
+      "implied_px_usd": 4.617007044445591
+     },
+     "100000": {
+      "size_usd": 100000,
+      "dollar": "USDC",
+      "buy_venue": "aerodrome-base",
+      "buy_param": "0x9c45e99e",
+      "coins": 2184.092519,
+      "sell_venue": "aerodrome-base",
+      "sell_param": "0x9c45e99e",
+      "usd_back": 46.462123,
+      "round_trip": -0.99953537877,
+      "implied_px_usd": 45.78560620947761
+     }
+    },
+    "dollar_legs": [
+     "USDC"
+    ],
+    "direct_pools": [
+     "0x9c45e99e5c90964b693513122e96d134218a3780",
+     "0x256d96010e9d9801b1f4c2320b2ad44715c8078f"
+    ]
+   }
+  },
+  {
+   "symbol": "ARGt",
+   "row": null
+  },
+  {
+   "symbol": "BRAt",
+   "row": null
+  },
+  {
+   "symbol": "MEXt",
+   "row": null
+  },
+  {
+   "symbol": "COLt",
+   "row": null
+  },
+  {
+   "symbol": "CHLt",
+   "row": null
+  },
+  {
+   "symbol": "PERt",
+   "row": null
+  },
+  {
+   "symbol": "BOLt",
+   "row": null
+  },
+  {
+   "symbol": "PRYt",
+   "row": null
+  },
+  {
+   "symbol": "URYt",
+   "row": null
+  },
+  {
+   "symbol": "VENt",
+   "row": null
+  }
+ ],
+ "panel3": [
+  {
+   "symbol": "wARS",
+   "supply_usd": 6952357.467283076,
+   "depth_usd": 9222.493441180664,
+   "ratio": 0.0013265275102122647
+  },
+  {
+   "symbol": "wBRL",
+   "supply_usd": 1093170.9779883744,
+   "depth_usd": 2172.4469755482855,
+   "ratio": 0.001987289288950908
+  },
+  {
+   "symbol": "wMXN",
+   "supply_usd": 56686.33812764983,
+   "depth_usd": 742.1436972083563,
+   "ratio": 0.013092108640659603
+  },
+  {
+   "symbol": "wCLP",
+   "supply_usd": 71537.66409983767,
+   "depth_usd": 477.5184989877208,
+   "ratio": 0.006675064177679858
+  },
+  {
+   "symbol": "wCOP",
+   "supply_usd": 89174.49462139429,
+   "depth_usd": 421.3751418028842,
+   "ratio": 0.004725287691193598
+  },
+  {
+   "symbol": "wPEN",
+   "supply_usd": 40150.30959074386,
+   "depth_usd": 1009.9679298039274,
+   "ratio": 0.025154673528015897
+  },
+  {
+   "symbol": "BRLA",
+   "supply_usd": 32344338.56795203,
+   "depth_usd": 18707.15647395471,
+   "ratio": 0.0005783749893247301
+  },
+  {
+   "symbol": "BRZ",
+   "supply_usd": 54448087.27131558,
+   "depth_usd": 15616.280567795417,
+   "ratio": 0.00028681045286272906
+  },
+  {
+   "symbol": "cREAL",
+   "supply_usd": 220984.1707003971,
+   "depth_usd": 1544.4944189802166,
+   "ratio": 0.006989163133653541
+  },
+  {
+   "symbol": "BRL1",
+   "supply_usd": 2579876.278644067,
+   "depth_usd": 1837.880835492085,
+   "ratio": 0.0007123910749929605
+  },
+  {
+   "symbol": "MXNB",
+   "supply_usd": 2144261.3098941124,
+   "depth_usd": 63245.553203367585,
+   "ratio": 0.029495263898825265
+  },
+  {
+   "symbol": "MXNe",
+   "supply_usd": 51051.20949922157,
+   "depth_usd": null,
+   "ratio": null
+  },
+  {
+   "symbol": "cCOP",
+   "supply_usd": 119206.42846426608,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "ARGt",
+   "supply_usd": 8882620.010130817,
+   "depth_usd": null,
+   "ratio": null
+  },
+  {
+   "symbol": "BRAt",
+   "supply_usd": 97300.59953500035,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "MEXt",
+   "supply_usd": 48340.13610752643,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "COLt",
+   "supply_usd": 175240.12255164678,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "CHLt",
+   "supply_usd": 60404.85779559896,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "PERt",
+   "supply_usd": 21379.53401450951,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "BOLt",
+   "supply_usd": null,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "PRYt",
+   "supply_usd": null,
+   "depth_usd": null,
+   "ratio": null
+  },
+  {
+   "symbol": "URYt",
+   "supply_usd": null,
+   "depth_usd": null,
+   "ratio": null
+  },
+  {
+   "symbol": "VENt",
+   "supply_usd": null,
+   "depth_usd": null,
+   "ratio": null
+  },
+  {
+   "symbol": "EURC",
+   "supply_usd": 418007302.56007534,
+   "depth_usd": 1235295.793281278,
+   "ratio": 0.0029552014658972216
+  },
+  {
+   "symbol": "JPYC",
+   "supply_usd": 23995701.591295365,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "XSGD",
+   "supply_usd": 15365952.506983029,
+   "depth_usd": 15616.280567795417,
+   "ratio": 0.0010162910864587552
+  },
+  {
+   "symbol": "tGBP",
+   "supply_usd": 27683860.934425727,
+   "depth_usd": 200,
+   "ratio": 7.2244258296823725e-06
+  },
+  {
+   "symbol": "AUDM",
+   "supply_usd": 2088119.3628492742,
+   "depth_usd": 16865.310885403127,
+   "ratio": 0.00807679445220513
+  },
+  {
+   "symbol": "AUDF",
+   "supply_usd": 3548354.516538921,
+   "depth_usd": 58110.72770468455,
+   "ratio": 0.016376809992865646
+  },
+  {
+   "symbol": "A7A5",
+   "supply_usd": 6845094.225308185,
+   "depth_usd": 0,
+   "ratio": 0
+  },
+  {
+   "symbol": "wA7A5",
+   "supply_usd": 1307538.1727366531,
+   "depth_usd": 3191.779825683987,
+   "ratio": 0.0024410605305722364
+  },
+  {
+   "symbol": "JPYCv1",
+   "supply_usd": 23691185.508161187,
+   "depth_usd": 0,
+   "ratio": 0
+  }
+ ]
+}
